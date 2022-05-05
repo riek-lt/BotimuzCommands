@@ -6,6 +6,7 @@
 		<commandLists>
 			<name>RCR</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>Any%</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -17,6 +18,7 @@
 		<commandLists>
 			<name>ring</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>Any%</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -28,6 +30,7 @@
 		<commandLists>
 			<name>Mort</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>Any%</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -40,6 +43,7 @@
 			<group>
 				<word>any% no ajs</word>
 				<word>any% (no ajs)</word>
+				<name>Online</name>
 			</group>
 		</requiredTitleWords>
 		<commandLists>
@@ -57,6 +61,7 @@
 			<group>
 				<word>No Major Glitches</word>
 				<word>NMG</word>
+				<name>Online</name>
 			</group>
 		</requiredTitleWords>
 		<commandLists>
@@ -78,6 +83,7 @@
 		<commandLists>
 			<name>gtasarainbow</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>No Major Glitches</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -89,6 +95,7 @@
 		<commandLists>
 			<name>gtasaany</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>Any%</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -105,6 +112,7 @@
 		<commandLists>
 			<name>gtasachaos</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>No Major Glitches</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -121,6 +129,7 @@
 		<commandLists>
 			<name>Goose</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>Any% Glitchless</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -132,6 +141,7 @@
 		<commandLists>
 			<name>TWW</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<streamStatus>online</streamStatus>
 	</commandCollection>
@@ -147,6 +157,7 @@
 		<commandLists>
 			<name>Goose</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>100%</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -163,6 +174,7 @@
 		<commandLists>
 			<name>Ape</name>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<speedrunCategory>Any%</speedrunCategory>
 		<streamStatus>online</streamStatus>
@@ -171,15 +183,16 @@
 	<commandCollection>
 		<name>Offline</name>
 		<commandLists>
-			<name>offline</name>
+			<name>Generic</name>
 		</commandLists>
 		<streamStatus>offline</streamStatus>
 	</commandCollection>
-	
+
 	<commandCollection>
 		<name>Generic</name>
 		<commandLists>
 			<name>Generic</name>
+			<name>Online</name>
 		</commandLists>
 		<streamStatus>any</streamStatus>
 	</commandCollection>

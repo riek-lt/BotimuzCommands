@@ -173,32 +173,6 @@
 		</responses>
 	</command>
 
-	<command>
-		<name>Twitter</name>
-		<responses random="false">
-			<response>I have a Twitter you could follow! http://twitter.com/riek_lt</response>
-			<!-- <response>You decide what categories of Duck Season I will run next thursday! Vote here https://www.strawpoll.me/42547137 </response> -->
-			<!-- <response>Are you happy to see me @DJGrooves?</response> -->
-			<response>Don't forget to follow the channel if you want to keep up with Riekelt! Greatly appreciated</response>
-			<response>!ooc</response>
-			<!-- <response>You decide what categories of Duck Season I will run next thursday! Vote here https://www.strawpoll.me/42547137 </response> -->
-			<!-- <response>I got a special channel point challenge going on. 55k points for me to do speedruns of a VR game (Duck Season)</response> -->
-			<response>You can find me on twitter! http://twitter.com/riek_lt</response>
-			<response>!quote</response>
-			<response>Do you dislike my split background, and wish I had another? You can change it yourself with a channel point reward!</response>
-			<!-- <response>If I get 3 new subs in a single eligible stream, I will spend the last half hour of the stream to do some community-picked Beat Saber. Check the "info corner" to see if this stream is eligible</response> -->
-		</responses>
-		<dataTrigger type="timer">1260</dataTrigger>
-	</command>
-
-	<command>
-		<name>Bday</name>
-		<responses random="false">
-			<response>Hello! My birthday was yesterday, and today I'm celebrating with all of you! Catching all the monkeys, and something else. What could it be? You decide: https://strawpoll.com/polls/e2navVdpVgB</response>
-		</responses>
-		<dataTrigger type="timer">860</dataTrigger>
-	</command>
-
 	<!-- <command>
 		<name>Decimal timer</name>
 		<maxWords>20</maxWords>
