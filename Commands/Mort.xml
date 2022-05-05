@@ -1,0 +1,86 @@
+﻿<commands version="1">
+	<command>
+		<name>What is this game</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>this</word>
+			</group>
+			<group>
+				<word>game</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>glitch</word>
+				<word>strat</word>
+				<word>fast</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response forward="true">This game is Mort the Chicken for the PS1. This game came out late in the PS1's life and looks really bad for it's age. The goal of this game is to acquire every kidnapped Chick and bring it back to the well.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Speedstrats</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>strat</word>
+				<word>fast</word>
+				<word>glitch</word>
+			</group>
+			<group>
+				<word>how</word>
+				<word>what</word>
+			</group>
+		</requiredwords>
+		<responses usename="true">
+			<response forward="true">The main speed strat is holding R1 to run fast.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Splitnumbers</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>numbers</word>
+				<word>digits</word>
+				<word>decimal</word>
+				<word>integers</word>
+			</group>
+			<group>
+				<word>split</word>
+				<word>left</word>
+			</group>
+		</requiredwords>
+		<responses usename="true">
+			<response forward="true">The numbers in the splits reference the direction on the clock to launch to at the start of that level. If it's 12, Riek launches straight forward, and 7.5 means down-left.</response>
+		</responses>
+	</command>
+	<command>
+		<name>100%</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>how</word>
+				<word>why</word>
+			</group>
+			<group>
+				<word>100%</word>
+			</group>
+			<group>
+				<word>is</word><word>what</word>
+			</group>
+		</requiredwords>
+		<responses usename="true">
+			<response forward="true">100% in Mort is collecting all the Chicks, but also all the eggs AND coins/stars in every stage!</response>
+		</responses>
+	</command>
+</commands>

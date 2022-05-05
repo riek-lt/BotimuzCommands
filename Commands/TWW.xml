@@ -1,0 +1,66 @@
+<commands>
+
+  <command>
+    <name>flags</name>
+    <maxlength>15</maxlength>
+    <requiredwords>
+      <group>
+        <word>what</word>
+        <word>which</word>
+      </group>
+      <group>
+        <word>flag</word>
+        <word>settings</word>
+        <word>check</word>
+      </group>
+    </requiredwords>
+    <responses>
+      <response forward="true">The current flags are Dungeons, Tingle chets, mail, savage, all caves, all sidequests, fairies, gifts, misc, expensive, submarines and minigames.
+      </response>
+    </responses>
+  </command>
+
+  <command>
+    <name>changed</name>
+    <maxlength>15</maxlength>
+    <requiredwords>
+      <group>
+        <word>what</word>
+      </group>
+      <group>
+        <word>is</word>
+        <word>what</word>
+      </group>
+      <group>
+        <word>chang</word>
+        <word>diff</word>
+      </group>
+    </requiredwords>
+    <responses>
+      <response forward="true">As you can see, I got a different model! Next to that, all chests got different contents, making every objective I'm doing a total gamble.
+      </response>
+    </responses>
+  </command>
+
+  <command>
+    <name>What's rando</name>
+    <maxlength>15</maxlength>
+    <requiredwords>
+      <group>
+        <word>what</word>
+      </group>
+      <group>
+        <word>is</word>
+        <word>what</word>
+      </group>
+      <group>
+        <word>rando</word>
+      </group>
+    </requiredwords>
+    <responses>
+      <response forward="true">A randomizer is a modification of the original game, where most often items get randomized to different locations, so that every playthrough is different. You could play as a different character often, and there are some different tweaks.
+      </response>
+    </responses>
+  </command>
+
+</commands>

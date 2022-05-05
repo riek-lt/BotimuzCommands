@@ -1,0 +1,79 @@
+<commands version="1">
+
+  <command>
+    <name>What is this</name>
+    <maxWords>6</maxWords>
+    <requiredwords>
+      <group>
+        <word>how</word>
+        <word>what</word>
+        <word>why</word>
+      </group>
+      <group>
+        <word>what's</word>
+        <word>is</word>
+        <word>are</word>
+      </group>
+      <group>
+        <word>doing</word>
+        <word>this</word>
+        <word>game</word>
+      </group>
+    </requiredwords>
+    <responses>
+      <response forward="true">This is Ring Fit Adventure, a game from Nintendo that makes you feel fit. I want to push myself to do this at least once a week, and thus, why not stream this once a week. TehePelo
+      </response>
+    </responses>
+  </command>
+
+  <command>
+    <name>Challenge level</name>
+    <requiredwords>
+      <group>
+        <word>which</word>
+        <word>what</word>
+        <word>how</word>
+      </group>
+      <group>
+        <word>challenge</word>
+        <word>level</word>
+                <word>lvl</word>
+      </group>
+    </requiredwords>
+    <responses>
+      <response>My challenge level currently is on 27! BigSmoke</response>
+    </responses>
+  </command>
+
+  <command>
+    <name>Speedrun</name>
+    <requiredwords>
+      <group>
+        <word>when</word>
+        <word>what</word>
+        <word>how</word>
+      </group>
+      <group>
+        <word>speedrun</word>
+        <word>run</word>
+      </group>
+      <group>
+        <word>this</word>
+        <word>game</word>
+        <word>ring</word>
+      </group>
+    </requiredwords>
+    <responses>
+      <response data0="speedrunWR">There are currently no plans on speedrunning this, but I think it'd be fun to run something like Beat World 1. [0] and with some enticing, you can make me compete for that. PogFish</response>
+    </responses>
+  </command>
+
+  <command>
+    <name>Be gentle</name>
+    <responses random="false">
+      <response>Small reminder that because of chemotherapy, my heart is quite weakened. And the new epilepsy pills also don't do wonders for my energy levels. Please be gentle! TehePelo </response>
+    </responses>
+    <dataTrigger type="timer">1500</dataTrigger>
+  </command>
+
+</commands>

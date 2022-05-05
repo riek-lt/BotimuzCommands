@@ -1,0 +1,378 @@
+﻿<commands version="1">
+	<command>
+		<name>Good Bot</name>
+		<maxWords>4</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>good</word>
+				<word>thanks</word>
+				<word>thx</word>
+				<word>gj</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>bad</word>
+			</group>
+		</unwantedwords>
+		<responses forward="false">
+			<response>:3</response>
+			<response>Yay &lt;3</response>
+			<response>beep boop</response>
+			<response>Affirmative</response>
+			<response>Your compliments have been registered within my systems</response>
+			<response usename="false" data0="chattername">No problem @[0]</response>
+			<response>You're welcome</response>
+			<response>gg ez</response>
+			<response>MrDestructoid NO PROBLEM FELLOW HUMAN MrDestructoid</response>
+			<response>ayyy lmao</response>
+			<response>bot yay 1</response>
+		</responses>
+	</command>
+	<command>
+		<name>Bad Bot</name>
+		<maxWords>4</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>awful</word>
+				<word>bad</word>
+				<word>home</word>
+				<word>fuck</word>
+				<word>darn</word>
+				<word>sod</word>
+				<word>screw</word>
+				<word>silen</word>
+				<word>piss</word>
+				<word>die</word>
+				<word>die</word>
+			</group>
+		</requiredwords>
+		<responses forward="false">
+			<response>😭</response>
+			<response>I wish I was better, okay!</response>
+			<response>beep boop :(</response>
+			<response>I'll go cry in that corner over there.</response>
+			<response>Your compliments have been registered within my systems</response>
+			<response usename="false" data0="chattername">Screw you too @[0]</response>
+			<response>No</response>
+			<response>Kappa</response>
+			<response>MrDestructoid World takeover initiated MrDestructoid</response>
+			<response>ayyy lmao</response>
+			<response>bot yay -1</response>
+			<response>hasta la vista, baby</response>
+			<response>your face...</response>
+			<response>you made me cry</response>
+		</responses>
+	</command>
+	<command>
+		<name>Hello Bot</name>
+		<maxWords>4</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>rie</word>
+			</group>
+			<group>
+				<word wholeword="true">hi</word>
+				<word wholeword="true">hello</word>
+				<word wholeword="true">hey</word>
+				<word wholeword="true">yo</word>
+				<word wholeword="true">howdy</word>
+				<word wholeword="true">hallo</word>
+			</group>
+		</requiredwords>
+		<responses forward="false">
+			<response>🙋‍♀️</response>
+			<response>Hey there partner</response>
+			<response>What's up!</response>
+			<response>Top of the hat to you</response>
+			<response>Salutations my friend</response>
+			<response>Hello speedie!</response>
+			<response usename="false" data0="chattername">PADNA! @[0]
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Hello yaoi</name>
+		<maxWords>4</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>rie</word>
+			</group>
+			<group>
+				<word wholeword="true">hi</word>
+				<word wholeword="true">hello</word>
+				<word wholeword="true">hey</word>
+				<word wholeword="true">yo</word>
+				<word wholeword="true">howdy</word>
+				<word wholeword="true">hallo</word>
+			</group>
+			<group>
+				<word>potent</word>
+			</group>
+		</requiredwords>
+		<responses forward="false">
+			<response>🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️</response>
+			<response>Hello potential yuri partner</response>
+			<response>HEWWO WAOI WIXWY WINE!</response>
+			<response>Hello, potential one night stand</response>
+		</responses>
+	</command>
+	<command>
+		<name>beep boop</name>
+		<maxWords>1</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">beep</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response usename="false">boop</response>
+		</responses>
+	</command>
+	<command>
+		<name>followage</name>
+		<maxWords>1</maxWords>
+		<requiredwords>
+			<group>
+				<word>!followage</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response usename="false" data0="followAgeDays">You have been following for [0]</response>
+		</responses>
+	</command>
+	<command>
+		<name>WR</name>
+		<maxWords>4</maxWords>
+		<requiredwords>
+			<group>
+				<word>!wr</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>!wr</word>
+				<word>is</word>
+				<word>world</word>
+			</group>
+			<group>
+				<word>!wr</word>
+				<word>wr</word>
+				<word>record</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response data0="speedrunWR">[0]</response>
+		</responses>
+	</command>
+	<!-- <command>
+		<name>Decimal timer</name>
+		<maxWords>20</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+			</group>
+			<group>
+				<word>decimal</word>
+				<word>metric</word>
+				<word>wrong</word>
+			</group>
+			<group>
+				<word>tim</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>We are currently using an imperial timer. And as you know, imperial is the same as using miles, feets and pounds. That's bad. The French invented the metric timer. 10 hrs in a day, 100 minutes per hour, 100 seconds per minute!</response>
+		</responses>
+	</command> -->
+	<command>
+		<name>Change backgrounds</name>
+		<maxWords>20</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>how</word>
+				<word>show</word>
+			</group>
+			<group>
+				<word>background</word>
+				<word wholeword="true">bg</word>
+				<word wholeword="true">bgs</word>
+				<word>split</word>
+			</group>
+			<group>
+				<word>option</word>
+				<word>show</word>
+				<word>choice</word>
+				<word>are</word>
+				<word>change</word>
+				<word>split</word>
+				<word>are there</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>You can change my background! Visit this site to see all the options plus previews: http://rieke.lt/tools/streambg/</response>
+		</responses>
+	</command>
+	<command>
+		<name>Facemask info</name>
+		<maxWords>20</maxWords>
+		<requiredwords>
+			<group>
+				<word>!facemask</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>New, facemasks! You can give me facemasks for a bit by redeeming the channel point reward. Choose Autumn, Baby, Duck, shrunk face, zombie, synthwave, viking, Clown, Snapchat female, hipster, blob, pixelated, sadhead, 5head, snapchat smile,
+        Kermit the frog.
+      </response>
+		</responses>
+	</command>
+
+	<!--<command>
+		<name>Decimal Time</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>metric</word>
+				<word>time</word>
+				<word>split</word>
+				<word>seconds</word>
+				<word>minutes</word>
+				<word>hours</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word wholeword="true">it's</word>
+				<word>it is</word>
+				<word>using</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is using Decimal time instead of "Imperial" time in the timer. https://en.wikipedia.org/wiki/Decimal_time</response>
+		</responses>
+		<cooldown>100</cooldown>
+		<fixedCooldown>true</fixedCooldown>
+	</command>-->
+
+	<command>
+			<name>bot what cc</name>
+			<maxWords>3</maxWords>
+			<requiredwords>
+					<group>
+							<word>bot what cc</word>
+					</group>
+			</requiredwords>
+			<responses forward="false" usename="false" data0="currentCommandCollection">
+					<response>The current Command Collection loaded is: [0]. (this is a mod only command)</response>
+			</responses>
+			<modonly>true</modonly>
+	</command>
+
+	<command>
+		<name>bot refresh</name>
+		<maxWords>2</maxWords>
+		<requiredwords>
+				<group>
+						<word>bot refresh</word>
+				</group>
+		</requiredwords>
+		<responses forward="false" usename="false" data0="currentCommandCollection">
+				<response>Commands refreshed and loaded for [0]. (this is a mod only command)</response>
+		</responses>
+		<modonly>true</modonly>
+		<dataAction>refreshCommandCollections</dataAction>
+</command>
+
+<command>
+	<name>how long</name>
+	<requiredwords>
+		<group>
+				<word>how</word>
+		</group>
+		<group>
+				<word>long</word>
+				<word>much</word>
+		</group>
+		<group>
+				<word>you</word>
+		</group>
+		<group>
+				<word>play</word>
+				<word>run</word>
+				<word>ran</word>
+				<word>time</word>
+		</group>
+	</requiredwords>
+	<responses forward="false" usename="false">
+			<response data0="randomNumber" range0="100-30000">Riekelt has [0] hours into this game</response>
+	</responses>
+</command>
+
+<command>
+	<name>how many wr</name>
+	<requiredwords>
+		<group>
+				<word>how</word>
+		</group>
+		<group>
+				<word>many</word>
+				<word>much</word>
+		</group>
+		<group>
+				<word>wr</word>
+				<word>world record</word>
+		</group>
+	</requiredwords>
+	<responses forward="false" usename="false">
+			<response data0="speedrunRunnerWRs" >Riekelt has [0] world records</response>
+	</responses>
+</command>
+
+<command>
+	<name>Discord</name>
+	<requiredwords>
+		<group>
+				<word>!discord</word>
+		</group>
+	</requiredwords>
+	<responses forward="true" usename="true">
+			<response>Join my discord at https://discord.gg/g5QmxT3</response>
+	</responses>
+</command>
+
+	<command>
+		<name>How's the weather</name>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">weather</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response usename="false" data0="weather" string0="Portsmouth, gb">This version of Botikelt doesn't support being Piet Paulusma.</response>
+		</responses>
+		<cooldown>1800</cooldown>
+	</command>
+
+
+</commands>

@@ -1,0 +1,86 @@
+﻿<commands version="1">
+	<command>
+		<name>Glitches</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>glitch</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">There are 2 giant glitches in this game; item clipping and prop boosting. These make you either go through walls or levitate (to the bell). You need items to do both.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Exploits</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>model</word>
+				<word>town</word>
+				<word>village</word>
+			</group>
+			<group>
+				<word>glitch</word>
+				<word>neck</word>
+				<word>duck</word>
+				<word>cheat</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">While it's not allowed to glitch in model town, using your neck and duck to get more height is as normal as using stairs and therefore allowed.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>100%</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>100%</word>
+				<word>completion</word>
+				<word>hundo</word>
+			</group>
+			<group>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>do</word>
+			</group>
+		</requiredwords>
+		<responses usename="true">
+			<response forward="true">The definition of 100% is doing all the main tasks, all the hidden tasks and the speedtasks (do a full area before the 7 minute bells ring).
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Going fast</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>fast</word>
+				<word>strat</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>are</word>
+				<word>is</word>
+			</group>
+		</unwantedwords>
+		<responses usename="true">
+			<response forward="true">The general ways on being fast is knowing how every NPC prioritizes tasks, their routine and where they will be, and making your cycles as optimally as possible.
+      </response>
+		</responses>
+	</command>
+</commands>

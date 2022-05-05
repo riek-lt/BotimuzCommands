@@ -1,0 +1,593 @@
+﻿<commands version="1">
+<command>
+	<name>Camera Flick</name>
+	<maxWords>15</maxWords>
+	<requiredwords>
+		<group>
+			<word>why</word>
+			<word>what</word>
+			<word>wtf</word>
+			<word>botikelt</word>
+			<word>on purpose</word>
+			<word wholeword="true">bot</word>
+		</group>
+		<group>
+			<word>camera</word>
+			<word>look</word>
+			<word>view</word>
+		</group>
+		<group>
+			<word>flick</word>
+			<word>move</word>
+			<word>moving</word>
+			<word>down</word>
+			<word>pan</word>
+			<word>shake</word>
+			<word>shaking</word>
+			<word>up</word>
+			<word>flinch</word>
+		</group>
+	</requiredwords>
+	<unwantedwords>
+		<group>
+			<word>me</word>
+			<word>looked</word>
+			<word>look it</word>
+		</group>
+	</unwantedwords>
+	<responses>
+		<response forward="true">Riek sometimes flicks the camera to re-roll the traffic RNG. This sometimes helps by despawning traffic, but can also generate it so Riek has to do it really carefully.</response>
+	</responses>
+</command>
+	<command>
+		<name>Duping</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>Dupe</word>
+				<word>Doop</word>
+				<word>Duplication</word>
+			</group>
+			<group>
+				<word>What</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>whats</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Duplication in GTA SA context is starting a mission twice to skip the next mission in the current chain of missions. This is done by flipping the OnMission trigger with a phone call (ask how this works).</response>
+		</responses>
+	</command>
+	<!-- <command>
+		<name>om0</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>omo</word>
+				<word>om0</word>
+				<word>mission</word>
+			</group>
+			<group>
+				<word>omo</word>
+				<word>om0</word>
+				<word>on</word>
+			</group>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>your</word>
+			</group>
+		</unwantedwords>
+		<responses forward="true">
+			<response>This game has 2 mission states. OnMission 0, which is free roam, you can start missions and the such. When you're on a mission or in a phonecall, you're OnMission 1, you can't do anything. Therefore Riek flips the 1 to a 0 for a phone call
+        in Bloodbowl, making it possible to start a mission twice.</response>
+		</responses>
+	</command> -->
+	<command>
+	<name>Sultan</name>
+	<maxWords>15</maxWords>
+	<requiredwords>
+		<group>
+			<word>why</word>
+			<word>what</word>
+			<word>botimuz</word>
+			<word wholeword="true">bot</word>
+		</group>
+		<group>
+			<word>sultan</word>
+		</group>
+		<group>
+			<word>need</word>
+			<word>want</word>
+			<word>require</word>
+			<word wholeword="true">bot</word>
+		</group>
+	</requiredwords>
+	<responses>
+		<response>I don't "need" a Sultan, I need a 4-door car for Don Peyote and a Sultan is the fastest one (he also has a replay of it to make the game load it). Saying Sultan is fun, however</response>
+	</responses>
+</command>
+	<command>
+		<name>What is AJS</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>ajs</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>stand</word>
+				<word>whats</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>no</word>
+			</group>
+		</unwantedwords>
+		<responses forward="true">
+			<response usename="true">AJS stands for Arbitrary Jump in Script, which can take you from the 2nd mision to the final mission, being able to beat the run in 20 minutes. It's extremely difficult to pull off though! And it's played from the Windows Store version
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>What is no AJS</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>ajs</word>
+			</group>
+			<group>
+				<word>is</word>
+			</group>
+			<group>
+				<word>no</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response usename="true">Any% No AJS (Arbitrary Jump in Script) is the old any% run without the glitch that skips you from mission 2 to the final one. You can use all other glitches like duping.</response>
+		</responses>
+	</command>
+	<command>
+	<name>No Major Glitches</name>
+	<requiredwords>
+		<group>
+			<word>where</word>
+			<word>what</word>
+			<word wholeword="true">bot</word>
+			<word>mean</word>
+			<word>botimuz</word>
+			<word wholeword="true">stands</word>
+		</group>
+		<group>
+			<word wholeword="true">nmg</word>
+			<word>major glitch</word>
+		</group>
+	</requiredwords>
+	<unwantedwords>
+		<group>
+			<word>like</word>
+			<word>prefer</word>
+			<word>wr</word>
+			<word>world</word>
+			<word>record</word>
+		</group>
+	</unwantedwords>
+	<responses>
+		<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
+	</responses>
+</command>
+<command>
+		<name>Version</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>botikelt</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>version</word>
+				<word>playing</word>
+			</group>
+			<group>
+				<word>games launcher</word>
+				<word>rockstar launcher</word>
+				<word wholeword="true">rgl</word>
+				<word wholeword="true">steam</word>
+				<word wholeword="true">v1</word>
+				<word wholeword="true">v2</word>
+				<word wholeword="true">1.0</word>
+				<word wholeword="true">1.1</word>
+				<word wholeword="true">1.01</word>
+				<word wholeword="true">2.0</word>
+				<word wholeword="true">sa</word>
+				<word wholeword="true">gta:sa</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>epic</word>
+				<word wholeword="true">egs</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Riekelt plays on retail v1.01, which is a physical box copy of the game. Not Steam, not RGL.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Sliding</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>walk</word>
+				<word>sliding</word>
+			</group>
+			<group>
+				<word>weird</word>
+				<word>is</word>
+				<word>how</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Sliding is this technique that lets you walk weird and go faster than walking and is used in areas where you can't run. A special weapon (spray can, AK47 etc) is needed for this.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>How many hours</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">how</word>
+			</group>
+			<group>
+				<word wholeword="true">long</word>
+				<word wholeword="true">many</word>
+				<word wholeword="true">much</word>
+			</group>
+			<group>
+				<word wholeword="true">played</word>
+				<word wholeword="true">hours</word>
+			</group>
+		</requiredwords>
+		<responses data0="randomNumber" range0="5000-19999">
+			<response>Riek has played GTA:SA for [0] hours.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>GTA V</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>when</word>
+			</group>
+			<group>
+				<word wholeWord="true">v</word>
+				<word>gtav</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>GTA V LUL</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Pause buffering</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>flash</word>
+				<word>paus</word>
+				<word>flick</word>
+			</group>
+			<group>
+				<word>screen</word>
+				<word>black</word>
+				<word>quickly</word>
+				<word>rapid</word>
+				<word>buffer</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Whenever you see rapid flashing on the screen, Riek is probably trying to advance time when in-game events are paused. Mostly used for entering events at the same time as a phone ringing, but also for keeping a grenade in the air.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Zero Star Glitch</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>zero</word>
+				<word>0</word>
+			</group>
+			<group>
+				<word>glitch</word>
+			</group>
+			<group>
+				<word>star</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>The 0-Star Glitch is a major glitch that persistently clears all stars every frame. This is needed since you will consistently get 4 stars in Desert/Las Venturas. This happens by flying, and destroying the plane before it arrives at it's destination.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Phonecalls</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>phone</word>
+				<word>phonecalls</word>
+			</group>
+			<group>
+				<word>calls</word>
+				<word>phonecalls</word>
+			</group>
+			<group>
+				<word>work</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Phonecalls are essential for duplicating missions. They are a toggleable/confusable OnMission activator, and confuse the game to cause duping. High prio calls happen every 15min and low's are worth 1 minute of waiting.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Swat vans</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word>swat</word>
+				<word>police</word>
+			</group>
+			<group>
+				<word>van</word>
+				<word>bus</word>
+				<word>car</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>SWAT vans only appear when you have 4 or more stars. If you see swat vans, Riek technically has 4 stars, but are negated by the 0 star glitch. Sometimes vans spawn, but they don't actually do anything.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Black Skies</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>sky</word>
+				<word>background</word>
+				<word>ped</word>
+				<word>skybox</word>
+				<word>traffic</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word>dark</word>
+				<word>gray</word>
+				<word>grey</word>
+				<word>missing</word>
+				<word>gone</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>The world looks weird since we're duping this mission in an interior. Therefore only mission-necessary assets spawn.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Kate Datie</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+			</group>
+			<group>
+				<word>kat</word>
+				<word>girlfriend</word>
+				<word>gf</word>
+			</group>
+			<group>
+				<word>Dat</word>
+				<word>get</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>We date Katie to unstick a mission we duplicated. Also, when we die, we don't lose any weapons, which is useful for deathwarps.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Sultan</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>sultan</word>
+			</group>
+			<group>
+				<word>need</word>
+				<word>get</word>
+				<word>search</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>The Sultan is the fastest four door car in the game. We can 'spawn' it using a replay. It's particularly useful in Don Peyote because we specifically need a four door vehicle there.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Replay</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+			</group>
+			<group>
+				<word>screen</word>
+				<word>replay</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word wholeWord="true">play</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>We can abuse replays to skip fade-outs and also to 'spawn' certain vehicles by loading them into the game's database.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Fast on bike</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>fast</word>
+			</group>
+			<group>
+				<word>bike</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Mashing up when driving on a bike makes you go faster.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Early om0</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+				<word>what's</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>om0</word>
+				<word>mission</word>
+			</group>
+			<group>
+				<word>sf</word>
+				<word>fierro</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>The goal for Early onMission 0 in San Fierro is to save 40+ seconds going to the first bloodbowl. It however does involve a lot of cautious steps later on!</response>
+		</responses>
+	</command>
+	<command>
+		<name>Outrider skip</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what's</word>
+				<word>what</word>
+				<word>where</word>
+				<word>!outrider</word>
+			</group>
+			<group>
+				<word>outrider</word>
+				<word>snail</word>
+				<word>new</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>do</word>
+				<word>what's</word>
+				<word>!outrider</word>
+			</group>
+			<group>
+				<word>skip</word>
+				<word>!outrider</word>
+				<word>strat</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Snail Trail Skip is possible! If it works, I can skip Snail Trail and Ice Cold Killa, but it can crash my game if I miss a time-sensitive replay. And I need to aim my satchel for the van better. Doing everything good will save me about 3 minutes? *unconfirmed</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Boat colours</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>color</word>
+				<word>colour</word>
+			</group>
+			<group>
+				<word>squalo</word>
+				<word>boat</word>
+				<word>ship</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+	<group>
+		<word>cruise</word>
+	</group>
+</unwantedwords>
+		<responses forward="true">
+			<response>There are 8 different boat colours. Full black, full red, and white with pink, red, gray, green, gold and blue. Here is a reference chart I made: https://rieke.lt/i/keeps/boats.png</response>
+		</responses>
+	</command>
+
+</commands>

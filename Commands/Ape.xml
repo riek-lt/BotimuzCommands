@@ -1,0 +1,47 @@
+﻿<commands version="1">
+	<command>
+		<name>Glitches</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>fly</word>
+				<word>glitch</word>
+				<word>crawl</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">This weird flying glitch is called aircrawls. It is a glitch that preserves momentum by crouching in midair and cancelling 1st person mode, and this glitch is used basically anywhere.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Minimum gadget challenge</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+				<word>!mingadget</word>
+			</group>
+			<group>
+				<word>rules</word>
+				<word>requi</word>
+				<word>!mingadget</word>
+			</group>
+			<group>
+				<word>minimum gadget</word>
+				<word>minim</word>
+				<word>gadget</word>
+				<word>!mingadget</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">The minimum gadget is trying to get through the game with as few gadget uses as possible. This means using the gadgets intended mechanics (slashing the stun club, driving with the car, shooting a pellet etc.), excluding the net as this is an important requirement to the game. Mountable vehicles are included. Unsure if this will be All Monkeys or Any% (let me know). Thank Gamechamp3000 for the idea!
+      </response>
+		</responses>
+	</command>
+</commands>

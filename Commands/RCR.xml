@@ -1,0 +1,46 @@
+﻿<commands version="1">
+	<command>
+		<name>What is this game</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>this</word>
+			</group>
+			<group>
+				<word>game</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">This is Retro City Rampage, a parody demake of GTA III, but then it's own game. It consists a lot of pop culture references, and is the last known game to release on the wii!
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Speed tech</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>which</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>this</word>
+				<word>are</word>
+			</group>
+			<group>
+				<word>glitch</word>
+				<word>strat</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">This is Retro City Rampage, a parody demake of GTA III, but then it's own game. It consists a lot of pop culture references, and is the last known game to release on the wii!
+      </response>
+		</responses>
+	</command>
+</commands>

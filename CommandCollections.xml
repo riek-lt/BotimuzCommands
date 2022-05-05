@@ -1,0 +1,186 @@
+<commandCollections version="1">
+
+	<commandCollection>
+		<name>RCR</name>
+		<gameName>Retro City Rampage</gameName>
+		<commandLists>
+			<name>RCR</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>Any%</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>Ring Fit</name>
+		<gameName>Ring Fit Adventure</gameName>
+		<commandLists>
+			<name>ring</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>Any%</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>Mort</name>
+		<gameName>Mort the Chicken</gameName>
+		<commandLists>
+			<name>Mort</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>Any%</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>GTASA-noAJS</name>
+		<gameName>Grand Theft Auto: San Andreas</gameName>
+		<requiredTitleWords>
+			<group>
+				<word>any% no ajs</word>
+				<word>any% (no ajs)</word>
+			</group>
+		</requiredTitleWords>
+		<commandLists>
+			<name>gtasanoajs</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>Any% no AJS</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>GTASA-NMG</name>
+		<gameName>Grand Theft Auto: San Andreas</gameName>
+		<requiredTitleWords>
+			<group>
+				<word>No Major Glitches</word>
+				<word>NMG</word>
+			</group>
+		</requiredTitleWords>
+		<commandLists>
+			<name>gtasanoajs</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>No Major Glitches</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>GTASA-rainbow</name>
+		<gameName>Grand Theft Auto: San Andreas</gameName>
+		<requiredTitleWords>
+			<group>
+				<word>rainbomizer</word>
+			</group>
+		</requiredTitleWords>
+		<commandLists>
+			<name>gtasarainbow</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>No Major Glitches</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>GTASA-Any</name>
+		<gameName>Grand Theft Auto: San Andreas</gameName>
+		<commandLists>
+			<name>gtasaany</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>Any%</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>GTASA-Chaos</name>
+		<gameName>Grand Theft Auto: San Andreas</gameName>
+		<requiredTitleWords>
+			<group>
+				<word>chaos mod</word>
+			</group>
+		</requiredTitleWords>
+		<commandLists>
+			<name>gtasachaos</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>No Major Glitches</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>Goose-Glitchless</name>
+		<gameName>Untitled Goose Game</gameName>
+		<requiredTitleWords>
+			<group>
+				<word>glitchless</word>
+			</group>
+		</requiredTitleWords>
+		<commandLists>
+			<name>Goose</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>Any% Glitchless</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>TWW</name>
+		<gameName>The Legend of Zelda: The Wind Waker</gameName>
+		<commandLists>
+			<name>TWW</name>
+			<name>Generic</name>
+		</commandLists>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>Goose-100</name>
+		<gameName>Untitled Goose Game</gameName>
+		<requiredTitleWords>
+			<group>
+				<word>100%</word>
+			</group>
+		</requiredTitleWords>
+		<commandLists>
+			<name>Goose</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>100%</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>Ape2-any</name>
+		<gameName>Ape Escape 2</gameName>
+		<requiredTitleWords>
+			<group>
+				<word>Any%</word>
+			</group>
+		</requiredTitleWords>
+		<commandLists>
+			<name>Ape</name>
+			<name>Generic</name>
+		</commandLists>
+		<speedrunCategory>Any%</speedrunCategory>
+		<streamStatus>online</streamStatus>
+	</commandCollection>
+
+	<commandCollection>
+		<name>Offline</name>
+		<commandLists>
+			<name>offline</name>
+		</commandLists>
+		<streamStatus>offline</streamStatus>
+	</commandCollection>
+	
+	<commandCollection>
+		<name>Generic</name>
+		<commandLists>
+			<name>Generic</name>
+		</commandLists>
+		<streamStatus>any</streamStatus>
+	</commandCollection>
+</commandCollections>

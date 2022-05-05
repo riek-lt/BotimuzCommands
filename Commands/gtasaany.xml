@@ -1,0 +1,317 @@
+﻿<commands version="1">
+	<command>
+		<name>Camera Flick</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>camera</word>
+				<word>cam</word>
+				<word>screen</word>
+				<word>mouse</word>
+			</group>
+			<group>
+				<word>flick</word>
+				<word>move</word>
+				<word>swing</word>
+				<word>throw</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">Riek sometimes flicks the camera to re-roll the traffic RNG. This sometimes helps by despawning traffic, but can also generate it so Riek has to do it really carefully.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Duping</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>Dupe</word>
+				<word>Doop</word>
+				<word>Duplication</word>
+			</group>
+			<group>
+				<word>What</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>whats</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Duplication in GTA SA context is starting a mission twice to skip the next mission in the current chain of missions. This is done by flipping the OnMission trigger with a phone call (ask how this works).</response>
+		</responses>
+	</command>
+	<command>
+		<name>om0</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>omo</word>
+				<word>om0</word>
+				<word>mission</word>
+			</group>
+			<group>
+				<word>omo</word>
+				<word>om0</word>
+				<word>on</word>
+			</group>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>your</word>
+			</group>
+		</unwantedwords>
+		<responses forward="true">
+			<response>This game has 2 mission states. OnMission 0, which is free roam, you can start missions and the such. When you're on a mission or in a phonecall, you're OnMission 1, you can't do anything. Therefore Riek flips the 1 to a 0 for a phone call
+        in Bloodbowl, making it possible to start a mission twice.</response>
+		</responses>
+	</command>
+	<command>
+		<name>What is AJS</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>ajs</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>stand</word>
+				<word>whats</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>no</word>
+			</group>
+		</unwantedwords>
+		<responses forward="true">
+			<response usename="true">AJS stands for Arbitrary Jump in Script, which can take you from the 2nd mision to the final mission, being able to beat the run in 20 minutes. It's extremely difficult to pull off though! And it's played from the Windows Store version
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>What is no AJS</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>ajs</word>
+			</group>
+			<group>
+				<word>is</word>
+			</group>
+			<group>
+				<word>no</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response usename="true">Any% No AJS (Arbitrary Jump in Script) is the old any% run without the glitch that skips you from mission 2 to the final one. You can use all other glitches like duping.</response>
+		</responses>
+	</command>
+	<command>
+		<name>GTA V</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+			</group>
+			<group>
+				<word wholeWord="true">v</word>
+				<word>gtav</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>GTA V LUL</response>
+		</responses>
+	</command>
+	<command>
+		<name>songrequest</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>!sr</word>
+				<word>!songrequest</word>
+				<word>songrequest</word>
+				<word>request</word>
+			</group>
+			<group>
+				<word>!sr</word>
+				<word>song</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>no</word>
+			</group>
+		</unwantedwords>
+		<responses forward="true">
+			<response>Because I'll probably be running GTA for so long, I like to listen to my own music, and that's what you're hearing right now. I'd rather not be scared by other people's songs or even moderate them, so there are no requests now.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Pause buffering</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>flash</word>
+				<word>paus</word>
+				<word>flick</word>
+			</group>
+			<group>
+				<word>screen</word>
+				<word>black</word>
+				<word>quickly</word>
+				<word>rapid</word>
+				<word>buffer</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Whenever you see rapid flashing on the screen, Riek is probably trying to advance time when in-game events are paused. Mostly used for entering events at the same time as a phone ringing, but also for keeping a grenade in the air.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Phonecalls</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>phone</word>
+				<word>phonecalls</word>
+			</group>
+			<group>
+				<word>calls</word>
+				<word>phonecalls</word>
+			</group>
+			<group>
+				<word>work</word>
+				<word>wy</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Phonecalls are essential for duplicating missions. They are a toggleable/confusable OnMission activator, and confuse the game to cause duping. High prio calls happen every 15min and low's are worth 1 minute of waiting.</response>
+		</responses>
+	</command>
+	<command>
+		<name>1 cycle</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>1</word>
+				<word>one</word>
+			</group>
+			<group>
+				<word>cycle</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>My current Any% PB had me do the AJS trick twice. However, I want to get it without having the do-over, getting a nice 17:xx or 16:xx time. Or WR, coming for you 123robot!!</response>
+		</responses>
+	</command>
+	<command>
+		<name>values</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>correct</word>
+				<word>are</word>
+				<word>ajs</word>
+				<word>is</word>
+				<word>time</word>
+			</group>
+			<group>
+				<word>value</word>
+				<word>numb</word>
+				<word>window</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>I need to stop vigilante at an extremely precise time; I want the time to be at a value between 82061 and 82093 (but only select numbers work), and it's insanely difficult. Therefore I try to stop the timer at around 1:22.55
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Know something</name>
+		<maxWords>99</maxWords>
+		<cooldown>200</cooldown>
+		<requiredwords>
+			<group>
+				<word>know</word>
+				<word>ree</word>
+			</group>
+			<group>
+				<word>take</word>
+				<word>old</word>
+			</group>
+			<group>
+				<word>back</word>
+			</group>
+		</requiredwords>
+		<responses useName="false" forward="true">
+			<response>You know something? I take it back. Old Reece still got it cracking. goncoHands
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Know something short</name>
+		<maxWords>5</maxWords>
+		<cooldown>200</cooldown>
+		<requiredwords>
+			<group>
+				<word>know</word>
+			</group>
+			<group>
+				<word>something</word>
+			</group>
+		</requiredwords>
+		<responses useName="false" forward="true">
+			<response>I take it back! Old Reese still got it cracking!
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>I take it back</name>
+		<maxWords>5</maxWords>
+		<cooldown>200</cooldown>
+		<requiredwords>
+			<group>
+				<word wholeword="true">I</word>
+			</group>
+			<group>
+				<word>take</word>
+			</group>
+			<group>
+				<word>back</word>
+			</group>
+		</requiredwords>
+		<responses useName="false" forward="true">
+			<response>You know something, old Reese still got it cracking
+      </response>
+		</responses>
+	</command>
+</commands>

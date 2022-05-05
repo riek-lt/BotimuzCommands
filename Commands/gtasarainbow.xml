@@ -1,0 +1,369 @@
+﻿<commands version="1">
+	<command>
+		<name>What is rainbomizer</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+				<word>explain</word>
+			</group>
+			<group>
+				<word>happen</word>
+				<word>explain</word>
+				<word>is</word>
+			</group>
+			<group>
+				<word>is</word>
+			</group>
+			<group>
+				<word>rainbo</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Rainbomizer is a mix of GTA (San Andreas) between a randomizer (randomizing  everything like character models, missions, voicelines, vehicles etc.), and a rainbowmizer, making everything nicely coloured.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Camera Flick</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>camera</word>
+				<word>cam</word>
+				<word>screen</word>
+				<word>mouse</word>
+			</group>
+			<group>
+				<word>flick</word>
+				<word>move</word>
+				<word>swing</word>
+				<word>throw</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">Riek sometimes flicks the camera to re-roll the traffic RNG. This sometimes helps by despawning traffic, but can also generate it so Riek has to do it really carefully.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Duping</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>Dupe</word>
+				<word>Doop</word>
+				<word>Duplication</word>
+			</group>
+			<group>
+				<word>What</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>whats</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Duplication in GTA SA context is starting a mission twice to skip the next mission in the current chain of missions. This is done by flipping the OnMission trigger with a phone call (ask how this works).</response>
+		</responses>
+	</command>
+	<command>
+		<name>What is AJS</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>ajs</word>
+			</group>
+			<group>
+				<word>is</word>
+				<word>stand</word>
+				<word>whats</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>no</word>
+			</group>
+		</unwantedwords>
+		<responses forward="true">
+			<response usename="true">AJS stands for Arbitrary Jump in Script, which can take you from the 2nd mision to the final mission, being able to beat the run in 20 minutes. It's extremely difficult to pull off though! And it's played from the Windows Store version
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>What is no AJS</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+			</group>
+			<group>
+				<word>ajs</word>
+			</group>
+			<group>
+				<word>is</word>
+			</group>
+			<group>
+				<word>no</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response usename="true">Any% No AJS (Arbitrary Jump in Script) is the old any% run without the glitch that skips you from mission 2 to the final one. You can use all other glitches like duping.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Sliding</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>walk</word>
+				<word>sliding</word>
+			</group>
+			<group>
+				<word>weird</word>
+				<word>is</word>
+				<word>how</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Sliding is this technique that lets you walk weird and go faster than walking and is used in areas where you can't run. A special weapon (spray can, AK47 etc) is needed for this.</response>
+		</responses>
+	</command>
+	<command>
+		<name>GTA V</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>when</word>
+			</group>
+			<group>
+				<word wholeWord="true">v</word>
+				<word>gtav</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>GTA V LUL</response>
+		</responses>
+	</command>
+	<command>
+		<name>Pause buffering</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>flash</word>
+				<word>paus</word>
+				<word>flick</word>
+			</group>
+			<group>
+				<word>screen</word>
+				<word>black</word>
+				<word>quickly</word>
+				<word>rapid</word>
+				<word>buffer</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Whenever you see rapid flashing on the screen, Riek is probably trying to advance time when in-game events are paused. Mostly used for entering events at the same time as a phone ringing, but also for keeping a grenade in the air.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Zero Star Glitch</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>zero</word>
+				<word>0</word>
+			</group>
+			<group>
+				<word>glitch</word>
+			</group>
+			<group>
+				<word>star</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>The 0-Star Glitch is a major glitch that persistently clears all stars every frame. This is needed since you will consistently get 4 stars in Desert/Las Venturas. This happens by flying, and destroying the plane before it arrives at it's destination.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Phonecalls</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>phone</word>
+				<word>phonecalls</word>
+			</group>
+			<group>
+				<word>calls</word>
+				<word>phonecalls</word>
+			</group>
+			<group>
+				<word>work</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Phonecalls are essential for duplicating missions. They are a toggleable/confusable OnMission activator, and confuse the game to cause duping. High prio calls happen every 15min and low's are worth 1 minute of waiting.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Swat vans</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word>swat</word>
+				<word>police</word>
+			</group>
+			<group>
+				<word>van</word>
+				<word>bus</word>
+				<word>car</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>SWAT vans only appear when you have 4 or more stars. If you see swat vans, Riek technically has 4 stars, but are negated by the 0 star glitch. Sometimes vans spawn, but they don't actually do anything.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Black Skies</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>sky</word>
+				<word>background</word>
+				<word>ped</word>
+				<word>skybox</word>
+				<word>traffic</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word>dark</word>
+				<word>gray</word>
+				<word>grey</word>
+				<word>missing</word>
+				<word>gone</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>The world looks weird since we're duping this mission in an interior. Therefore only mission-necessary assets spawn.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Kate Datie</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+			</group>
+			<group>
+				<word>kat</word>
+				<word>girlfriend</word>
+				<word>gf</word>
+			</group>
+			<group>
+				<word>Dat</word>
+				<word>get</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>We date Katie to unstick a mission we duplicated. Also, when we die, we don't lose any weapons, which is useful for deathwarps.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Sultan</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>sultan</word>
+			</group>
+			<group>
+				<word>need</word>
+				<word>get</word>
+				<word>search</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>The Sultan is the fastest four door car in the game. We can 'spawn' it using a replay. It's particularly useful in Don Peyote because we specifically need a four door vehicle there.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Replay</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+			</group>
+			<group>
+				<word>screen</word>
+				<word>replay</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word wholeWord="true">play</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>We can abuse replays to skip fade-outs and also to 'spawn' certain vehicles by loading them into the game's database.
+      </response>
+		</responses>
+	</command>
+	<command>
+		<name>Fast on bike</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>how</word>
+				<word>what</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>fast</word>
+			</group>
+			<group>
+				<word>bike</word>
+			</group>
+		</requiredwords>
+		<responses forward="true">
+			<response>Mashing up when driving on a bike makes you go faster.</response>
+		</responses>
+	</command>
+	
+</commands>
