@@ -45,4 +45,29 @@
       </response>
 		</responses>
 	</command>
+
+	<command>
+		<name>Amount of monkeys</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>many</word>
+				<word>amount</word>
+				<word>number</word>
+			</group>
+			<group>
+				<word>monk</word>
+				<word>chimp</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response forward="true">Ape Escape 2 has 297 monkeys (300 outside of japan), and in Any% you only catch 180 of them
+      </response>
+		</responses>
+	</command>
+
 </commands>
