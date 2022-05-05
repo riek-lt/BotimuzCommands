@@ -194,6 +194,6 @@
 			<name>Generic</name>
 			<name>Online</name>
 		</commandLists>
-		<streamStatus>any</streamStatus>
+		<streamStatus>online</streamStatus>
 	</commandCollection>
 </commandCollections>
