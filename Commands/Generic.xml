@@ -1,4 +1,4 @@
-﻿<commands version="1">
+<commands version="1">
 	<command>
 		<name>Good Bot</name>
 		<maxWords>4</maxWords>
@@ -95,7 +95,7 @@
 			<response>Salutations my friend</response>
 			<response>Hello speedie!</response>
 			<response usename="false" data0="chattername">PADNA! @[0]
-      </response>
+			</response>
 		</responses>
 	</command>
 	<command>
@@ -105,6 +105,7 @@
 			<group>
 				<word wholeword="true">bot</word>
 				<word>rie</word>
+				<word>potential</word>
 			</group>
 			<group>
 				<word wholeword="true">hi</word>
@@ -119,7 +120,7 @@
 			</group>
 		</requiredwords>
 		<responses forward="false">
-			<response>🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️</response>
+			<response>🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍👉⭕♀️</response>
 			<response>Hello potential yuri partner</response>
 			<response>HEWWO WAOI WIXWY WINE!</response>
 			<response>Hello, potential one night stand</response>
@@ -173,27 +174,9 @@
 		</responses>
 	</command>
 
-	<!-- <command>
-		<name>Decimal timer</name>
-		<maxWords>20</maxWords>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word>why</word>
-			</group>
-			<group>
-				<word>decimal</word>
-				<word>metric</word>
-				<word>wrong</word>
-			</group>
-			<group>
-				<word>tim</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>We are currently using an imperial timer. And as you know, imperial is the same as using miles, feets and pounds. That's bad. The French invented the metric timer. 10 hrs in a day, 100 minutes per hour, 100 seconds per minute!</response>
-		</responses>
-	</command> -->
+	<!-- <command> <name>Decimal timer</name> <maxWords>20</maxWords> <requiredwords> <group> <word>what</word> <word>why</word> </group> <group> <word>decimal</word> <word>metric</word> <word>wrong</word> </group> <group> <word>tim</word> </group>
+	</requiredwords> <responses> <response>We are currently using an imperial timer. And as you know, imperial is the same as using miles, feets and pounds. That's bad. The French invented the metric timer. 10 hrs in a day, 100 minutes per hour, 100
+	seconds per minute!</response> </responses> </command> -->
 	<command>
 		<name>Change backgrounds</name>
 		<maxWords>20</maxWords>
@@ -234,146 +217,117 @@
 		</requiredwords>
 		<responses>
 			<response>New, facemasks! You can give me facemasks for a bit by redeeming the channel point reward. Choose Autumn, Baby, Duck, shrunk face, zombie, synthwave, viking, Clown, Snapchat female, hipster, blob, pixelated, sadhead, 5head, snapchat smile,
-        Kermit the frog.
-      </response>
+				Kermit the frog.
+			</response>
 		</responses>
 	</command>
 
-	<!--<command>
-		<name>Decimal Time</name>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word>why</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
-				<word>metric</word>
-				<word>time</word>
-				<word>split</word>
-				<word>seconds</word>
-				<word>minutes</word>
-				<word>hours</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word wholeword="true">it's</word>
-				<word>it is</word>
-				<word>using</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>Josh is using Decimal time instead of "Imperial" time in the timer. https://en.wikipedia.org/wiki/Decimal_time</response>
-		</responses>
-		<cooldown>100</cooldown>
-		<fixedCooldown>true</fixedCooldown>
-	</command>-->
+	<!--<command> <name>Decimal Time</name> <requiredwords> <group> <word>what</word> <word>why</word> <word wholeword="true">bot</word> <word>botimuz</word> </group> <group> <word>metric</word> <word>time</word> <word>split</word> <word>seconds</word>
+	<word>minutes</word> <word>hours</word> </group> </requiredwords> <unwantedwords> <group> <word wholeword="true">it's</word> <word>it is</word> <word>using</word> </group> </unwantedwords> <responses> <response>Josh is using Decimal time instead of
+	"Imperial" time in the timer. https://en.wikipedia.org/wiki/Decimal_time</response> </responses> <cooldown>100</cooldown> <fixedCooldown>true</fixedCooldown> </command>-->
 
 	<command>
-			<name>bot what cc</name>
-			<maxWords>3</maxWords>
-			<requiredwords>
-					<group>
-							<word>bot what cc</word>
-					</group>
-			</requiredwords>
-			<responses forward="false" usename="false" data0="currentCommandCollection">
-					<response>The current Command Collection loaded is: [0]. (this is a mod only command)</response>
-			</responses>
-			<modonly>true</modonly>
+		<name>bot what cc</name>
+		<maxWords>3</maxWords>
+		<requiredwords>
+			<group>
+				<word>bot what cc</word>
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false" data0="currentCommandCollection">
+			<response>The current Command Collection loaded is: [0]. (this is a mod only command)</response>
+		</responses>
+		<modonly>true</modonly>
 	</command>
 
 	<command>
 		<name>bot refresh</name>
 		<maxWords>2</maxWords>
 		<requiredwords>
-				<group>
-						<word>bot refresh</word>
-				</group>
+			<group>
+				<word>bot refresh</word>
+			</group>
 		</requiredwords>
 		<responses forward="false" usename="false" data0="currentCommandCollection">
-				<response>Commands refreshed and loaded for [0]. (this is a mod only command)</response>
+			<response>Commands refreshed and loaded for [0]. (this is a mod only command)</response>
 		</responses>
 		<modonly>true</modonly>
 		<dataAction>refreshCommandCollections</dataAction>
-</command>
+	</command>
 
-<command>
-	<name>how long</name>
-	<requiredwords>
-		<group>
+	<command>
+		<name>how long</name>
+		<requiredwords>
+			<group>
 				<word>how</word>
-		</group>
-		<group>
+			</group>
+			<group>
 				<word>long</word>
 				<word>much</word>
-		</group>
-		<group>
+			</group>
+			<group>
 				<word>you</word>
-		</group>
-		<group>
+			</group>
+			<group>
 				<word>play</word>
 				<word>run</word>
 				<word>ran</word>
 				<word>time</word>
-		</group>
-	</requiredwords>
-	<responses forward="false" usename="false">
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false">
 			<response data0="randomNumber" range0="100-30000">Riekelt has [0] hours into this game</response>
-	</responses>
-</command>
+		</responses>
+	</command>
 
-<command>
-	<name>how many wr</name>
-	<requiredwords>
-		<group>
+	<command>
+		<name>how many wr</name>
+		<requiredwords>
+			<group>
 				<word>how</word>
-		</group>
-		<group>
+			</group>
+			<group>
 				<word>many</word>
 				<word>much</word>
-		</group>
-		<group>
+			</group>
+			<group>
 				<word>wr</word>
 				<word>world record</word>
-		</group>
-	</requiredwords>
-	<responses forward="false" usename="false">
-			<response data0="speedrunRunnerWRs" >Riekelt has [0] world records</response>
-	</responses>
-</command>
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false">
+			<response data0="speedrunRunnerWRs">Riekelt has [0] world records</response>
+		</responses>
+	</command>
 
-<command>
-	<name>Discord</name>
-	<requiredwords>
-		<group>
+	<command>
+		<name>Discord</name>
+		<requiredwords>
+			<group>
 				<word>!discord</word>
-		</group>
-	</requiredwords>
-	<responses forward="true" usename="true">
+			</group>
+		</requiredwords>
+		<responses forward="true" usename="true">
 			<response>Join my discord at https://discord.gg/g5QmxT3</response>
-	</responses>
-</command>
+		</responses>
+	</command>
 
-<command>
-	<name>How's the weather</name>
-	<requiredwords>
-		<group>
-			<word>how</word>
-			<word>what</word>
-			<word wholeword="true">bot</word>
-		</group>
-		<group>
-			<word wholeword="true">weather</word>
-		</group>
-	</requiredwords>
-	<responses>
-<response usename="false" data0="weather" string0="Portsmouth, gb">This version of Botikelt doesn't support being Piet Paulusma.</response>
-	</responses>
-	<cooldown>1800</cooldown>
-</command>
-
+	<command>
+		<name>How's the weather</name>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">weather</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response usename="false" data0="weather" string0="Portsmouth, gb">This version of Botikelt doesn't support being Piet Paulusma.</response>
+		</responses>
+		<cooldown>1800</cooldown>
+	</command>
 
 </commands>
