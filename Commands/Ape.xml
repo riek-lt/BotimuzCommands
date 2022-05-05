@@ -14,10 +14,11 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response forward="true">This weird flying glitch is called aircrawls. It is a glitch that preserves momentum by crouching in midair and cancelling 1st person mode, and this glitch is used basically anywhere.
+			<response forward="true">This weird flying glitch is called aircrawls. It is a glitch that preserves momentum by crouching in midair and cancelling 1st person mode, and this glitch is used everywhere. The horizontal speed is slow due to crawling, but vertical speed is determined by how fast I do the glitch, ie I can choose to go slow.
       </response>
 		</responses>
 	</command>
+
 	<command>
 		<name>Minimum gadget challenge</name>
 		<maxWords>15</maxWords>
