@@ -58,14 +58,14 @@
 			<response>I wish I was better, okay!</response>
 			<response>beep boop :(</response>
 			<response>I'll go cry in that corner over there.</response>
-			<response>Your compliments have been registered within my systems</response>
+			<response>Your uncompliments have been registered within my systems</response>
 			<response usename="false" data0="chattername">Screw you too @[0]</response>
 			<response>No</response>
 			<response>Kappa</response>
 			<response>MrDestructoid World takeover initiated MrDestructoid</response>
 			<response>ayyy lmao</response>
 			<response>bot yay -1</response>
-			<response>hasta la vista, baby</response>
+			<response>Prepare to be bad. Hasta la vista, baby</response>
 			<response>your face...</response>
 			<response>you made me cry</response>
 		</responses>
@@ -89,24 +89,21 @@
 		</requiredwords>
 		<responses forward="false">
 			<response>🙋‍♀️</response>
-			<response>Hey there partner</response>
 			<response>What's up!</response>
-			<response>Top of the hat to you</response>
 			<response>Salutations my friend</response>
 			<response>Hello speedie!</response>
 			<response usename="false" data0="chattername">PADNA! @[0]
 			</response>
+			<response>I hope your day is beautiful</response>
+			<response>GOOD DAY SIR (or madam)</response>
+			<response>Riekelt says hello too.</response>
+			<response>yo</response>
 		</responses>
 	</command>
 	<command>
 		<name>Hello yaoi</name>
 		<maxWords>4</maxWords>
 		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>rie</word>
-				<word>potential</word>
-			</group>
 			<group>
 				<word wholeword="true">hi</word>
 				<word wholeword="true">hello</word>
@@ -116,7 +113,7 @@
 				<word wholeword="true">hallo</word>
 			</group>
 			<group>
-				<word>potent</word>
+				<word wholeword="false">potent</word>
 			</group>
 		</requiredwords>
 		<responses forward="false">
@@ -177,50 +174,9 @@
 	<!-- <command> <name>Decimal timer</name> <maxWords>20</maxWords> <requiredwords> <group> <word>what</word> <word>why</word> </group> <group> <word>decimal</word> <word>metric</word> <word>wrong</word> </group> <group> <word>tim</word> </group>
 	</requiredwords> <responses> <response>We are currently using an imperial timer. And as you know, imperial is the same as using miles, feets and pounds. That's bad. The French invented the metric timer. 10 hrs in a day, 100 minutes per hour, 100
 	seconds per minute!</response> </responses> </command> -->
-	<command>
-		<name>Change backgrounds</name>
-		<maxWords>20</maxWords>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word>where</word>
-				<word>how</word>
-				<word>show</word>
-			</group>
-			<group>
-				<word>background</word>
-				<word wholeword="true">bg</word>
-				<word wholeword="true">bgs</word>
-				<word>split</word>
-			</group>
-			<group>
-				<word>option</word>
-				<word>show</word>
-				<word>choice</word>
-				<word>are</word>
-				<word>change</word>
-				<word>split</word>
-				<word>are there</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>You can change my background! Visit this site to see all the options plus previews: http://rieke.lt/tools/streambg/</response>
-		</responses>
-	</command>
-	<command>
-		<name>Facemask info</name>
-		<maxWords>20</maxWords>
-		<requiredwords>
-			<group>
-				<word>!facemask</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>New, facemasks! You can give me facemasks for a bit by redeeming the channel point reward. Choose Autumn, Baby, Duck, shrunk face, zombie, synthwave, viking, Clown, Snapchat female, hipster, blob, pixelated, sadhead, 5head, snapchat smile,
-				Kermit the frog.
-			</response>
-		</responses>
-	</command>
+	<!-- <command> <name>Change backgrounds</name> <maxWords>20</maxWords> <requiredwords> <group> <word>what</word> <word>where</word> <word>how</word> <word>show</word> </group> <group> <word>background</word> <word wholeword="true">bg</word> <word
+	wholeword="true">bgs</word> <word>split</word> </group> <group> <word>option</word> <word>show</word> <word>choice</word> <word>are</word> <word>change</word> <word>split</word> <word>are there</word> </group> </requiredwords> <responses>
+	<response>You can change my background! Visit this site to see all the options plus previews: http://rieke.lt/tools/streambg/</response> </responses> </command> -->
 
 	<!--<command> <name>Decimal Time</name> <requiredwords> <group> <word>what</word> <word>why</word> <word wholeword="true">bot</word> <word>botimuz</word> </group> <group> <word>metric</word> <word>time</word> <word>split</word> <word>seconds</word>
 	<word>minutes</word> <word>hours</word> </group> </requiredwords> <unwantedwords> <group> <word wholeword="true">it's</word> <word>it is</word> <word>using</word> </group> </unwantedwords> <responses> <response>Josh is using Decimal time instead of
