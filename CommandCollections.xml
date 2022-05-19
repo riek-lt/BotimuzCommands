@@ -43,11 +43,11 @@
 			<group>
 				<word>any% no ajs</word>
 				<word>any% (no ajs)</word>
-				<name>Online</name>
 			</group>
 		</requiredTitleWords>
 		<commandLists>
 			<name>gtasanoajs</name>
+			<name>Online</name>
 			<name>Generic</name>
 		</commandLists>
 		<speedrunCategory>Any% no AJS</speedrunCategory>
@@ -61,11 +61,11 @@
 			<group>
 				<word>No Major Glitches</word>
 				<word>NMG</word>
-				<name>Online</name>
 			</group>
 		</requiredTitleWords>
 		<commandLists>
 			<name>gtasanoajs</name>
+			<name>Online</name>
 			<name>Generic</name>
 		</commandLists>
 		<speedrunCategory>No Major Glitches</speedrunCategory>
