@@ -71,6 +71,29 @@
 		</responses>
 	</command>
 	<command>
+		<name>Hello yaoi</name>
+		<maxWords>4</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">hi</word>
+				<word wholeword="true">hello</word>
+				<word wholeword="true">hey</word>
+				<word wholeword="true">yo</word>
+				<word wholeword="true">howdy</word>
+				<word wholeword="true">hallo</word>
+			</group>
+			<group>
+				<word wholeword="false">potent</word>
+			</group>
+		</requiredwords>
+		<responses forward="false">
+			<response>🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍👉⭕♀️</response>
+			<response>Hello potential yuri partner</response>
+			<response>HEWWO WAOI WIXWY WINE!</response>
+			<response>Hello, potential one night stand</response>
+		</responses>
+	</command>
+	<command>
 		<name>Hello Bot</name>
 		<maxWords>4</maxWords>
 		<requiredwords>
@@ -98,29 +121,6 @@
 			<response>GOOD DAY SIR (or madam)</response>
 			<response>Riekelt says hello too.</response>
 			<response>yo</response>
-		</responses>
-	</command>
-	<command>
-		<name>Hello yaoi</name>
-		<maxWords>4</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">hi</word>
-				<word wholeword="true">hello</word>
-				<word wholeword="true">hey</word>
-				<word wholeword="true">yo</word>
-				<word wholeword="true">howdy</word>
-				<word wholeword="true">hallo</word>
-			</group>
-			<group>
-				<word wholeword="false">potent</word>
-			</group>
-		</requiredwords>
-		<responses forward="false">
-			<response>🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍👉⭕♀️</response>
-			<response>Hello potential yuri partner</response>
-			<response>HEWWO WAOI WIXWY WINE!</response>
-			<response>Hello, potential one night stand</response>
 		</responses>
 	</command>
 	<command>
