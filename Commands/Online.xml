@@ -12,7 +12,6 @@
 		<!-- <response>I got a special channel point challenge going on. 55k points for me to do speedruns of a VR game (Duck Season)</response> -->
 		<response>You can find me on twitter! http://twitter.com/riek_lt</response>
 		<response>!quote</response>
-		<response>Do you dislike my split background, and wish I had another? You can change it yourself with a channel point reward!</response>
 		<!-- <response>If I get 3 new subs in a single eligible stream, I will spend the last half hour of the stream to do some community-picked Beat Saber. Check the "info corner" to see if this stream is eligible</response> -->
 	</responses>
 	<dataTrigger type="timer">1260</dataTrigger>
