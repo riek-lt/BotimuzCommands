@@ -137,7 +137,7 @@
 			<response>GTA V LUL</response>
 		</responses>
 	</command>
-	<command>
+<!-- 	<command>
 		<name>songrequest</name>
 		<maxWords>10</maxWords>
 		<requiredwords>
@@ -161,7 +161,7 @@
 			<response>Because I'll probably be running GTA for so long, I like to listen to my own music, and that's what you're hearing right now. I'd rather not be scared by other people's songs or even moderate them, so there are no requests now.
       </response>
 		</responses>
-	</command>
+	</command> -->
 	<command>
 		<name>Pause buffering</name>
 		<maxWords>10</maxWords>
@@ -312,6 +312,44 @@
 		<responses useName="false" forward="true">
 			<response>You know something, old Reese still got it cracking
       </response>
+		</responses>
+	</command>
+	<command>
+		<name>Why 69</name>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>how</word>
+				<word>reason</word>
+				<word>what</word>
+				<word>where</word>
+				<word>why</word>
+                <word>which</word>
+			</group>
+			<group>
+				<word>69</word>
+				<word>70</word>
+				<word>avoid</word>
+				<word>final</word>
+				<word>gone</word>
+				<word>last</word>
+				<word>left out</word>
+				<word>missing</word>
+				<word>not all</word>
+				<word>not included</word>
+                <word>excluded</word>
+                <word>not done</word>
+			</group>
+			<group>
+				<word>69</word>
+				<word>70</word>
+				<word>jump</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The 70th jump is blocked by an invisible barrier because I haven't unlocked Las Venturas yet. Running all the way until LV just to do the 70th jump would suck, so people do 69/70 instead. There IS a way to get past it, but no one runs that category yet: https://youtu.be/0v_3ZBPA_Oo</response>
 		</responses>
 	</command>
 </commands>
