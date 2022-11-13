@@ -286,4 +286,32 @@
 		<cooldown>1800</cooldown>
 	</command>
 
+	<command>
+		<name>Aphasia</name>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">!aphasia</word>
+			</group>
+			<group>
+				<word wholeword="true">is</word>
+				<word wholeword="true">was</word>
+				<word wholeword="true">happens</word>
+				<word wholeword="true">!aphasia</word>
+			</group>
+			<group>
+				<word wholeword="true">aphasia</word>
+				<word wholeword="true">afasia</word>
+				<word wholeword="true">afazia</word>
+				<word wholeword="true">!aphasia</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response usename="false" data0="weather" string0="Portsmouth, gb">Riekelt has aphasia, which is an inability to comprehend or formulate language because of damage to specific brain regions. I get this via epilepsy, which I got medicine for, but sometimes I still get attacks. An attack usually takes 10 minutes. Please bear with me TehePelo</response>
+		</responses>
+		<cooldown>1800</cooldown>
+	</command>
+
 </commands>
