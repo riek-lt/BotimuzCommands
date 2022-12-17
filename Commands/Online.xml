@@ -3,14 +3,13 @@
 <command>
 	<name>Twitter</name>
 	<responses random="false">
-		<response>I have a Twitter you could follow! http://twitter.com/riek_lt</response>
-		<!-- <response>You decide what categories of Duck Season I will run next thursday! Vote here https://www.strawpoll.me/42547137 </response> -->
+		<response>/announce I have a Twitter you could follow! http://twitter.com/riek_lt</response>
 		<!-- <response>Are you happy to see me @DJGrooves?</response> -->
-		<response>Don't forget to follow the channel if you want to keep up with Riekelt! Greatly appreciated</response>
+		<response>/announce Don't forget to follow the channel if you want to keep up with Riekelt! Greatly appreciated</response>
+		<response>/announce I'm going to do more with my YouTube channel! Follow me here: https://youtube.com/riekelt</response>
 		<response>!ooc</response>
-		<!-- <response>You decide what categories of Duck Season I will run next thursday! Vote here https://www.strawpoll.me/42547137 </response> -->
 		<!-- <response>I got a special channel point challenge going on. 55k points for me to do speedruns of a VR game (Duck Season)</response> -->
-		<response>You can find me on twitter! http://twitter.com/riek_lt</response>
+		<response>/announce You can find me on twitter! http://twitter.com/riek_lt</response>
 		<response>!quote</response>
 		<!-- <response>If I get 3 new subs in a single eligible stream, I will spend the last half hour of the stream to do some community-picked Beat Saber. Check the "info corner" to see if this stream is eligible</response> -->
 	</responses>

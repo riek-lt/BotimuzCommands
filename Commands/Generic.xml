@@ -264,7 +264,7 @@
 			</group>
 		</requiredwords>
 		<responses forward="true" usename="true">
-			<response>Join my discord at https://discord.gg/g5QmxT3</response>
+			<response>/announce Join my discord at https://discord.gg/g5QmxT3</response>
 		</responses>
 	</command>
 
