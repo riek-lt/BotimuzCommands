@@ -296,20 +296,51 @@
 				<word wholeword="true">!aphasia</word>
 			</group>
 			<group>
-				<word wholeword="true">is</word>
-				<word wholeword="true">was</word>
-				<word wholeword="true">happens</word>
+				<word>is</word>
+				<word>was</word>
+				<word>happens</word>
 				<word wholeword="true">!aphasia</word>
 			</group>
 			<group>
-				<word wholeword="true">aphasia</word>
-				<word wholeword="true">afasia</word>
-				<word wholeword="true">afazia</word>
+				<word>aphasia</word>
+				<word>afasia</word>
+				<word>afazia</word>
 				<word wholeword="true">!aphasia</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response usename="false" data0="weather" string0="Portsmouth, gb">Riekelt has aphasia, which is an inability to comprehend or formulate language because of damage to specific brain regions. I get this via epilepsy, which I got medicine for, but sometimes I still get attacks. An attack usually takes 10 minutes. Please bear with me TehePelo</response>
+			<response usename="false" data0="weather" string0="Portsmouth, gb">Riekelt has aphasia, which is an inability to comprehend or formulate language because of damage to specific brain regions. I get this via epilepsy, which I got medicine for, but
+				sometimes I still get attacks. An attack usually takes 10 minutes. Please bear with me TehePelo</response>
+		</responses>
+		<cooldown>1800</cooldown>
+	</command>
+
+	<command>
+		<name>ESA</name>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">how</word>
+				<word wholeword="true">who</word>
+				<word wholeword="true">when</word>
+				<word wholeword="true">!esa</word>
+			</group>
+			<group>
+				<word wholeword="true">is</word>
+				<word wholeword="true">was</word>
+				<word wholeword="true">goes</word>
+				<word wholeword="true">!esa</word>
+			</group>
+			<group>
+				<word wholeword="true">ESA</word>
+				<word wholeword="true">esa</word>
+				<word wholeword="true">!esa</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response usename="true">Riekelt is going to the European Speedrunner Assembly's Winter 2023 event where he will be speedrunning Goat Simulator 3 (with Lordmau5), Kwirk with BSG and Ape Escape 3. But also, hang out with true speedfriends. Check out the schedule here; https://esamarathon.com/schedule/</response>
 		</responses>
 		<cooldown>1800</cooldown>
 	</command>
